@@ -3,7 +3,7 @@ package stf
 import (
 	"log"
 
-	adb "github.com/openatx/go-adb"
+	adb "github.com/yosemite-open/go-adb"
 )
 
 var dev *adb.Device

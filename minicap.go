@@ -18,7 +18,7 @@ import (
 
 	"image/jpeg"
 
-	adb "github.com/openatx/go-adb"
+	adb "github.com/yosemite-open/go-adb"
 	"github.com/pkg/errors"
 )
 

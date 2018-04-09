@@ -11,7 +11,7 @@ import (
 	"strings"
 	"time"
 
-	adb "github.com/openatx/go-adb"
+	adb "github.com/yosemite-open/go-adb"
 )
 
 func PushFileFromHTTP(d *adb.Device, dst string, perms os.FileMode, urlStr string) error {

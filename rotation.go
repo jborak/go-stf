@@ -12,8 +12,8 @@ import (
 	"sync"
 	"time"
 
-	adb "github.com/openatx/go-adb"
-	"github.com/openatx/go-adb/wire"
+	adb "github.com/yosemite-open/go-adb"
+	"github.com/yosemite-open/go-adb/wire"
 	"github.com/pkg/errors"
 )
 
@@ -162,7 +162,7 @@ func (s *STFRotation) pushApk() error {
 	if err != nil {
 		return err
 	}
-	resp, err := http.Get("https://github.com/openatx/RotationWatcher.apk/releases/download/1.0/RotationWatcher.apk")
+	resp, err := http.Get("https://github.com/yosemite-open/RotationWatcher.apk/releases/download/1.0/RotationWatcher.apk")
 	if err != nil {
 		return err
 	}
